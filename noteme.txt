@@ -1,0 +1,27 @@
+https://tailwindcss.com/docs/guides/create-react-app
+1.$$$ yarn create react-app . (text must lowercase all) or yarn create react-app my-app
+2.$$$ cd my-app
+
+
+folder & file important
+public
+src => index
+*remove this file => App.css, App.test.js, logo.svg, reportWebVitals.js, setupTest.js
+
+3.$$$ yarn add -D tailwindcss postcss autoprefixer
+4.$$$ npx tailwindcss init
+5.input => "./src/**/*.{js,jsx,ts,tsx}" in => content: [...], (tailwind.config.js)
+6.input in ./src/index.css file. =>  @tailwind base; @tailwind components; @tailwind utilities;
+7.$$$ yarn start
+
+>>>start coding
+1.App.js delete all code in div with import all then input => import React from 'react';
+2.index.js remove reportWebVitals(); & import reportWebVitals
+3.create folder components (in folder src) & create file Navbar.jsx (in folder components)
+=> -Navbar.jsx (icon) 
+--$$$ yarn add react-icons 
+=> -Hero.jsx (image)
+-- Copy Image Address
+=> -HeadlineCards.jsx
+
+
