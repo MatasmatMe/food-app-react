@@ -24,5 +24,6 @@ src => index
 -- Copy Image Address
 => -HeadlineCards.jsx
 testpush
+testpull
 
 
