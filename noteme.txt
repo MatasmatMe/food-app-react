@@ -25,6 +25,7 @@ src => index
 => -HeadlineCards.jsx
 => -Food.jsx
 => -Category.jsx
+Finished
 
 
 

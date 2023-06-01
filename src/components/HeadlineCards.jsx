@@ -34,7 +34,7 @@ const HeadlineCards = () => {
         <img className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl' src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
         </div>
     </div>
-   
+  
   )
 }
 
